@@ -7,3 +7,5 @@ UI vision RPA is a plugin on Google that can be used for automation of computer
 2. The UI vision RPA needs to set up by following the commands
 3. CPU usage powershell script is used to detect the CPU usage situation (if CPU usage > certain range: return FALSE; Else: return TRUE)
 4. Run the macro on the UI vision RPA to automate the process
+<img width="283" alt="image" src="https://github.com/JerryTseee/UnrealEngine_UIvision/assets/126223772/e92d193a-7344-441c-82a0-45927ea84862">
+<img width="259" alt="image" src="https://github.com/JerryTseee/UnrealEngine_UIvision/assets/126223772/69e2b0b2-2e9c-42b8-83b7-fbb36bdec7ce">

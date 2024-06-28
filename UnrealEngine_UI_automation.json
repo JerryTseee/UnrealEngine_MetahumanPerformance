@@ -1,0 +1,90 @@
+{
+    "Name": "UE_performance_version2",
+    "CreationDate": "2024-6-28",
+    "Commands": [
+      {
+        "Command": "XClick",
+        "Target": "xak8ht_dpi_108.png",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "while",
+        "Target": "true",
+        "Value": "",
+        "Description": "run infinitely"
+      },
+      {
+        "Command": "XRunAndWait",
+        "Target": "Powershell.exe",
+        "Value": "-executionpolicy bypass -File F:\\\\Jerry\\\\Unreal_Engine_Auto\\\\CPUusage.ps1",
+        "Description": ""
+      },
+      {
+        "Command": "csvRead",
+        "Target": "F:\\\\Jerry\\\\Unreal_Engine_Auto\\\\cpu_status.csv",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "echo",
+        "Target": "${!COL1}",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "if",
+        "Target": "${!COL1} == \"TRUE\"",
+        "Value": "",
+        "Description": "check if CPU usage is below the threshold"
+      },
+      {
+        "Command": "XClick",
+        "Target": "huy6md_dpi_108.png",
+        "Value": "",
+        "Description": "click the button"
+      },
+      {
+        "Command": "break",
+        "Target": "",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "end",
+        "Target": "",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "end",
+        "Target": "",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "pause",
+        "Target": "2500",
+        "Value": "",
+        "Description": "wait for 2.5 seconds"
+      },
+      {
+        "Command": "XClick",
+        "Target": "3bv5hp_dpi_108.png",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "pause",
+        "Target": "2000",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "XClick",
+        "Target": "ivuczq_dpi_108.png",
+        "Value": "",
+        "Description": ""
+      }
+    ]
+  }
